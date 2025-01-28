@@ -5,3 +5,8 @@ body {
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
+.form-check-input:checked {
+    background-color: #6c757d;
+    border-color: white;
+}

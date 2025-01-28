@@ -82,44 +82,44 @@
         </div>
       </div>
 
-      <!-- Pay and Message  -->
-      <div class="row mt-3">
-        <div class="col-6 ps-5">
-          <h6 class="fw-bold ">We accept</label></h6>
-          <div class="container mx-0 mt-2 p-2 bg-secondary rounded col-6 text-white">
+      <div class="row p-4">
+        <div class="col-6 d-flex align-items-start flex-column">
+          <h6 class="fw-bold ">We accept</h6>
+          <div class="d-flex gap-1 mx-0 mt-2 p-2 bg-secondary rounded text-white">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="mastercard" id="mastercard" value="mastercard">
-              <label class="form-check-label" for="mastercard">
+              <input class="form-check-input" type="radio" name="card-type" id="mastercard" value="mastercard">
+              <label class="form-check-label" for="card-type">
                 <i class="fa-brands fa-cc-mastercard"></i>
               </label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="visa" id="visa" value="visa">
-              <label class="form-check-label" for="visa">
+              <input class="form-check-input" type="radio" name="card-type" id="visa" value="visa">
+              <label class="form-check-label" for="card-type">
                 <i class="fa-brands fa-cc-visa"></i>
               </label>
             </div>
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="diners" id="diners" value="diners">
-              <label class="form-check-label" for="diners">
+              <input class="form-check-input" type="radio" name="card-type" id="diners" value="diners">
+              <label class="form-check-label" for="card-type">
                 <i class="fa-brands fa-cc-diners-club"></i>
               </label>
             </div>
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="american-express" id="american-express"
+              <input class="form-check-input" type="radio" name="card-type" id="american-express"
                 value="american-express">
-              <label class="form-check-label" for="american-express">
+              <label class="form-check-label" for="card-type">
                 <i class="fa-brands fa-cc-discover"></i>
               </label>
             </div>
           </div>
+
         </div>
 
 
         <!-- message -->
-        <div class="col-6 pe-5">
+        <div class="col-6">
           <label class="fw-bold" for="message">Message</label>
           <div class="form-floating">
             <textarea class="form-control" id="message"></textarea>
@@ -131,12 +131,14 @@
     </div>
 
 
+
     <!-- Buttons -->
-    <div class="bg-light border d-flex justify-content-end gap-2 py-2 px-4">
-      <button type="button" class="btn btn-secondary">Cancel</button>
-      <button type="submit" class="btn btn-primary">Send</button>
+    <div class="bg-light m-0 p-3 d-flex gap-3 justify-content-end border-top">
+      <button class="btn btn-secondary">Cancel</button>
+      <button class="btn btn-primary">Send</button>
     </div>
   </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
